@@ -44,11 +44,6 @@ public class RybkaApplication extends CzechitasGameApplication {
         for (int i = 0; i < kroky2; i++) {
             rybka.plavatDolu();
         }
-      /*  int i = 0;
-        while (i < 20) {
-            rybka.plavatDolu();
-            i++;
-        }*/
         for (int i = 0; i < kroky1; i++) {
             rybka.plavatVlevo();
         }
